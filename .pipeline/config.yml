@@ -4,7 +4,7 @@ general:
 
 steps:
   integrationArtifactUnDeploy:
-    cpiCredentialsId: roverpocServiceKeyCred
+    cpiApiServiceKeyCredentialsId: roverpocServiceKeyCred
     integrationFlowId: flow2
     host: https://roverpoc.it-accd002.cfapps.sap.hana.ondemand.com
     oAuthTokenProviderUrl: https://roverpoc.authentication.sap.hana.ondemand.com/oauth/token
